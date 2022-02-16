@@ -261,6 +261,7 @@ footer > ul > div > li > a > svg
     padding: 25px;
     filter: grayscale(1);
     transition: all 0.7s ease;
+    object-fit: cover;
 } 
 .about div:nth-child(7) figure img:hover
 {
