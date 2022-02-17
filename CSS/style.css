@@ -4,7 +4,6 @@ body
 
 /* Coloca un margen, parametros 4:*/
 margin: 0;
-border: 1px solid blue;
 }
 .container
 {
@@ -103,7 +102,7 @@ section > div:nth-child(2)
     
 
 }
-section > div:nth-child(2) h1
+section > div:nth-child(2) h1.index
 {
     font-size: 72px;
     font-weight: 700;
@@ -181,6 +180,12 @@ footer > ul > div > li > a > svg
 {
     overflow-y: scroll;
 }
+.aboutme
+{
+    font-size: 20px;
+    margin: 0;
+    display: inline-block;   
+}
 .about > div:nth-child(2) div .aboutme
 { 
     font-size: 20px;
@@ -252,6 +257,7 @@ footer > ul > div > li > a > svg
 {
     margin: 15px;
     overflow: hidden;
+    display: inline-block;
 }
 
 .about div:nth-child(7) figure img
@@ -262,13 +268,14 @@ footer > ul > div > li > a > svg
     padding: 25px;
     filter: grayscale(1);
     transition: all 0.7s ease;
-    object-fit: cover;
+    object-fit: cover;  
 } 
 .about div:nth-child(7) figure img:hover
 {
     filter: grayscale(0);
     transform: scale(1.1);
     transition: all 0.4s ease;
+    
 }
 .about div:nth-child(8) div:nth-child(1)
 { 
@@ -308,7 +315,7 @@ footer > ul > div > li > a > svg
 .line
 {
     display: inline-block;
-    width: 800px;
+    width: 700px;
     height: 1px;
     background-color: gray;
     margin: 6px;
@@ -321,5 +328,53 @@ footer > ul > div > li > a > svg
     background-color: gray;
     margin: 6px;
 }
+/*portfolio*/
+
+.portfolio div:nth-child(1) 
+{
+    display: inline-block;
+}
+.portfolio div:nth-child(2) div:nth-child(2) ul li
+{
+    display: inline-block;
+}
+.portfolio div:nth-child(2) div:nth-child(2) ul li a 
+{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    transition: all 0.7s ease;
+}
+.portfolio div:nth-child(2) div:nth-child(2) ul li a:hover
+{
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease;
+}
+.portfolio figure
+{
+    margin: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+.portfolio figure img
+{
+    width: 170px;
+    height: 230px;
+    margin: 0%;
+    padding: 25x;
+    filter: grayscale(1);
+    transition: all 0.7s ease;
+    object-fit: cover;
+}
+.portfolio figure img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
 
 
