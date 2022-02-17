@@ -389,5 +389,31 @@ footer > ul > div > li > a > svg
     transition: all 0.4s ease;
 }
 
+/*news*/
+.about div:nth-child(2) figure
+{
+    margin: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.about div:nth-child(2) figure img
+{
+    width: 170px;
+    height: 230px;
+    margin: 0%;
+    padding: 25px;
+    filter: grayscale(1);
+    transition: all 0.7s ease;
+    object-fit: cover;  
+} 
+.about div:nth-child(2) figure img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+    
+}
+
 
 
