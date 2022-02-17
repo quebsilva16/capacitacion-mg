@@ -298,7 +298,6 @@ footer > ul > div > li > a > svg
 .comilla
 {
     width: 20px;
-    position: relative;
     top: 10px;
     right: 350px;
     filter: grayscale(1);
@@ -307,15 +306,12 @@ footer > ul > div > li > a > svg
 .testimonio
 {
     width: 35%;
-    height: auto;
+    height: 120px;
     border: 2px solid #E5EDF4;
     padding: 20px;
     margin: 20px;
     display: inline-block;
     vertical-align: top;
-    height: 7.5vh;
-    
-    
 }
 .font-size-zero
 {
