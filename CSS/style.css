@@ -280,28 +280,33 @@ footer > ul > div > li > a > svg
 .about div:nth-child(8) div:nth-child(1)
 { 
     display: inline-block;
-    margin-top: 30px;
+    margin-bottom: 15px;
+
 }
 .about div:nth-child(8) div:nth-child(2)
 {
     display: inline-block;
-    width: 50%;
-    vertical-align: top;
 }
 .comilla
 {
     width: 20px;
+    position: relative;
+    top: 10px;
+    right: 350px;
+    filter: grayscale(1);
+    transform: scale(-1);
 }
 .testimonio
 {
-    width: 70%;
+    width: 35%;
     height: auto;
-    clear: both;
-    float: left;
-    position: relative;
     border: 2px solid #E5EDF4;
-    padding: 40px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 7.5vh;
+    
     
 }
 .font-size-zero
