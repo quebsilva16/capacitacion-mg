@@ -231,7 +231,7 @@ footer > ul > div > li > a > svg
     width: 50%;
     margin-top: 30px;
 }
-.about div:nth-child(6) div
+.about div:nth-child(6) div:nth-child(1)
 {
     display: inline-block;
     width: 50%;
@@ -242,25 +242,33 @@ footer > ul > div > li > a > svg
     float: right;
     padding-right: 270px;
 }
+
+.about div:nth-child(6) div:nth-child(2)
+{
+    display: inline-block;
+    width: 50%;
+    
+}
 .about div:nth-child(6) div:nth-child(2) p
 {
     display: inline;
     padding: 10px;
-    vertical-align: top;
+
+
 }
-.about div:nth-child(7) div
+.about div:nth-child(7) div:nth-child(1)
 {
     display: inline-block;
     margin-top: 30px;
 }
-.about div:nth-child(7) figure
+.about div:nth-child(7) div:nth-child(2) figure
 {
     margin: 15px;
     overflow: hidden;
     display: inline-block;
 }
 
-.about div:nth-child(7) figure img
+.about div:nth-child(7) div:nth-child(2) figure img
 {
     width: 170px;
     height: 230px;
@@ -270,7 +278,7 @@ footer > ul > div > li > a > svg
     transition: all 0.7s ease;
     object-fit: cover;  
 } 
-.about div:nth-child(7) figure img:hover
+.about div:nth-child(7) div:nth-child(2) figure img:hover
 {
     filter: grayscale(0);
     transform: scale(1.1);
@@ -320,7 +328,7 @@ footer > ul > div > li > a > svg
 .line
 {
     display: inline-block;
-    width: 700px;
+    width: 820px;
     height: 1px;
     background-color: gray;
     margin: 6px;
@@ -328,7 +336,7 @@ footer > ul > div > li > a > svg
 .line2
 {
     display: inline-block;
-    width: 700px;
+    width: 275px;
     height: 1px;
     background-color: gray;
     margin: 6px;
