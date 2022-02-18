@@ -386,29 +386,31 @@ footer > ul > div > li > a > svg
 }
 
 /*news*/
-.about div:nth-child(2) figure
+.news div:nth-child(3) figure
 {
     margin: 15px;
     overflow: hidden;
     display: inline-block;
+    
 }
 
-.about div:nth-child(2) figure img
+.news div:nth-child(3) figure img
 {
     width: 170px;
     height: 230px;
-    margin: 0%;
-    padding: 25px;
     filter: grayscale(1);
     transition: all 0.7s ease;
-    object-fit: cover;  
+    object-fit: cover; 
+    display: inline-block;
 } 
-.about div:nth-child(2) figure img:hover
+.news div:nth-child(3) figure img:hover
 {
     filter: grayscale(0);
     transform: scale(1.1);
     transition: all 0.4s ease;
 }
+/*Contact*/
+
 
 @media screen and (max-width: 900px)
 {
