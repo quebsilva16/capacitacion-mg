@@ -313,6 +313,16 @@ footer > ul > div > li > a > svg
     vertical-align: top;
     position: relative;
 }
+.conticon
+{
+    width: 23%;
+    height: 80px;
+    border: 2px solid #E5EDF4;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;  
+}
+
 .font-size-zero
 {
     font-size: 0;
@@ -410,7 +420,6 @@ footer > ul > div > li > a > svg
     transition: all 0.4s ease;
 }
 /*Contact*/
-
 
 @media screen and (max-width: 900px)
 {
