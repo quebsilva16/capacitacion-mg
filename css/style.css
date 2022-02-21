@@ -64,7 +64,7 @@ section
    
     margin-top: 20px;
     font-size: 0;
-    height: 80vh;
+    height: 80vh;   
 }
 section > div:nth-child(1)
 {
@@ -177,6 +177,7 @@ footer > ul > div > li > a > svg
 .about > div:nth-child(2)
 {
     overflow-y: scroll;
+    display: inline-block;
 }
 .aboutme
 {
@@ -190,13 +191,9 @@ footer > ul > div > li > a > svg
     margin: 0;
     display: inline-block; 
 }
-.about > div:nth-child(2) div.text
-{  
-    box-sizing: border-box;
-    display: inline-block;
-    width: 50%;
-    font-size: 16px;
-    vertical-align: top; 
+.descripcion
+{
+    width: 40%;
 }
 .about > div:nth-child(2) div.text span
 {
@@ -207,6 +204,7 @@ footer > ul > div > li > a > svg
     box-sizing: border-box;
     display: inline-block; 
     font-size: 16px;
+    width: 45%;
 }
 .about > div:nth-child(2) div.info span
 {
@@ -386,31 +384,29 @@ footer > ul > div > li > a > svg
 }
 
 /*news*/
-.news div:nth-child(3) figure
+.about div:nth-child(2) figure
 {
     margin: 15px;
     overflow: hidden;
     display: inline-block;
-    
 }
 
-.news div:nth-child(3) figure img
+.about div:nth-child(2) figure img
 {
     width: 170px;
     height: 230px;
+    margin: 0%;
+    padding: 25px;
     filter: grayscale(1);
     transition: all 0.7s ease;
-    object-fit: cover; 
-    display: inline-block;
+    object-fit: cover;  
 } 
-.news div:nth-child(3) figure img:hover
+.about div:nth-child(2) figure img:hover
 {
     filter: grayscale(0);
     transform: scale(1.1);
     transition: all 0.4s ease;
 }
-/*Contact*/
-
 
 @media screen and (max-width: 900px)
 {
