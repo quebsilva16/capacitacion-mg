@@ -311,6 +311,46 @@ footer > ul > div > li > a > svg
     vertical-align: top;
     position: relative;
 }
+.testimonio2
+{
+    width: 22%;
+    height: 40px;
+    border: 2px solid #E5EDF4;
+    padding: 40px;
+    margin: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+}
+.comilla2
+{
+    width: 20px;
+    right: 350px;
+    filter: grayscale(1);
+    position: absolute;
+    top: 15px;
+    left: 46%;
+    
+}
+.letras
+{
+    padding-top: 10px;
+}
+.datosdecontacto
+{
+    padding: 12px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.contact div:nth-child(2) form
+{
+    display: inline-block;
+}
+.contact div:nth-child(2) div.boton
+{
+    padding-left: 52px;
+}
 .font-size-zero
 {
     font-size: 0;
