@@ -400,8 +400,7 @@ footer > ul > div > li > a > svg
 {
     margin: 15px;
     overflow: hidden;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
 .news div:nth-child(3) figure img
